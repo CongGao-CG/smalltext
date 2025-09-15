@@ -1,0 +1,13 @@
+# ~/.inputrc
+$if Python
+    # Enable history prefix search for Python
+    "\e[A": history-search-backward
+    "\e[B": history-search-forward
+    
+    # Alternative: Vi mode
+    # set editing-mode vi
+    
+    # Show all completions immediately
+    set show-all-if-ambiguous on
+    set completion-ignore-case on
+$endif
