@@ -1,0 +1,58 @@
+Host zlu4pilog
+    HostName pilogin.hpc.sjtu.edu.cn
+    User ioozl-user4
+    IdentityFile ~/.ssh/id_ed25519
+    CertificateFile ~/.ssh/id_ed25519-cert.pub
+
+Host zlu4pidata
+    HostName data.hpc.sjtu.edu.cn
+    User ioozl-user4
+    IdentityFile ~/.ssh/id_ed25519
+    CertificateFile ~/.ssh/id_ed25519-cert.pub
+
+
+Host zlu4sylog
+    HostName sylogin.hpc.sjtu.edu.cn
+    User ioozl-user4
+    IdentityFile ~/.ssh/id_ed25519
+    CertificateFile ~/.ssh/id_ed25519-cert.pub
+
+Host zlu4sydata
+    HostName sydata.hpc.sjtu.edu.cn
+    User ioozl-user4
+    IdentityFile ~/.ssh/id_ed25519
+    CertificateFile ~/.ssh/id_ed25519-cert.pub
+
+
+
+Host cgdella
+    HostName della.princeton.edu
+    User cg6622
+    IdentityFile ~/.ssh/id_ed25519
+    ControlMaster auto
+    ControlPath ~/.ssh/ctl-%r@%h:%p
+    ControlPersist 8h
+
+Host cgdellavis1
+    HostName della-vis1.princeton.edu
+    User cg6622
+    IdentityFile ~/.ssh/id_ed25519
+    ControlMaster auto
+    ControlPath ~/.ssh/ctl-%r@%h:%p
+    ControlPersist 8h
+
+Host cgdellavis2
+    HostName della-vis2.princeton.edu
+    User cg6622
+    IdentityFile ~/.ssh/id_ed25519
+    ControlMaster auto
+    ControlPath ~/.ssh/ctl-%r@%h:%p
+    ControlPersist 8h
+
+Host cgadroit
+    HostName adroit.princeton.edu
+    User cg6622
+    IdentityFile ~/.ssh/id_ed25519
+    ControlMaster auto
+    ControlPath ~/.ssh/ctl-%r@%h:%p
+    ControlPersist 8h
